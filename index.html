@@ -10,9 +10,9 @@
 </head>
 
 <body>
-    <div class="container-fluid">
+    <div class="container">
         <div class="row">
-            <div class="col-12 border border-info form-row ">
+            <div class="col-12 border border-info form-row shadow bg-white rounded m-2 mr-5">
                 <div class=" col-4 mb-2">
                     <div>
                         <label for="inputState" class="h5 text-primary">Country</label>
@@ -36,20 +36,21 @@
         </div>
         <div class="row">
             <div class="col-12 ">
-                <div class="btn-group float-right mt-3" role="group" aria-label="Basic example" id="buttons">
-                    <button type="button" class="btn btn-info" id="day">Day</button>
-                    <button type="button" class="btn btn-info" id="month">Month</button>
+                <div class="btn-group float-right mt-3 shadow" role="group" aria-label="Basic example" id="buttons">
+                    <button type="button" class="btn btn-info border-right border-primary" id="day">Day</button>
+                    <button type="button" class="btn btn-info border-right border-primary" id="month">Month</button>
                     <button type="button" class="btn btn-info" id="year">Year</button>
                 </div>
             </div>
         </div>
+        <hr />
         <div class="row">
-            <div class="card col-12" id="dayData">
+            <div class="card col-12 shadow" id="dayData">
                 <div class="card-header h1 text-primary" id="dayHoliday">
 
                 </div>
                 <div class="card-body">
-                    <h5 class="card-title h3">Discription</h5>
+                    <h5 class="card-title h3">Description</h5>
                     <p class="card-text" id="dayDiscription"></p>
                 </div>
             </div>
@@ -61,7 +62,7 @@
                         <tr>
                             <th scope="col">Date</th>
                             <th scope="col">Holiday</th>
-                            <th scope="col">Discription</th>
+                            <th scope="col">Description</th>
                         </tr>
                     </thead>
                     <tbody id="tableMonth">
